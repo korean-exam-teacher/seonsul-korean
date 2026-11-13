@@ -50,9 +50,18 @@ body{background:#FEFEFD}
 main{padding-top:24px}
 .back{color:#2F4F7F}
 </style>
+<style id="crumb-v120">
+/* v120: 지금 있는 곳 — 국어의 모든 것 › 갈래 › (하위 화면). 앞쪽은 작고 흐리게, 지금 화면만 또렷하게 */
+.crumb{display:inline-flex;align-items:baseline;gap:8px;white-space:nowrap}
+.top .crumb a{font-size:15px;color:inherit;text-decoration:none;opacity:.58;transition:opacity .15s}
+.top .crumb a:hover{opacity:1}
+.top .crumb i{font-style:normal;font-size:13px;opacity:.34}
+.top .crumb a.here{font-size:21px;opacity:1}
+@media (max-width:480px){.crumb{gap:6px}.top .crumb a{font-size:13.5px}.top .crumb a.here{font-size:18px}}
+</style>
 </head>
 <body>
-<header class="top"><a class="brand old" href="/suneung-korean/">국어의 모든 것</a><nav><a href="/middle-korean/">개념 학습</a><a href="/seonsul-korean/">서·논술형</a><a href="/suneung-korean/suneung.html">수능</a><a href="/nonsul-korean/">대학 논술</a><a href="/advanced-korean/">공무원 · PSAT · LEET · 임용</a></nav></header>
+<header class="top"><span class="crumb"><a class="old" href="/suneung-korean/">국어의 모든 것</a><i aria-hidden="true">›</i><a class="old here" lang="okm" href="/seonsul-korean/" aria-current="page" title="서·논술형 · 꽃 좋고 열매 많으니">곶 됴코 여름 하ᄂᆞ니</a></span><nav><a href="/middle-korean/">개념 학습</a><a href="/seonsul-korean/">서·논술형</a><a href="/suneung-korean/suneung.html">수능</a><a href="/nonsul-korean/">대학 논술</a><a href="/advanced-korean/">공무원 · PSAT · LEET · 임용</a></nav></header>
 <section class="hero"><div class="in">
   <span class="jar91" aria-hidden="true"></span><p class="t old" lang="okm">곶 됴코 여름 하ᄂᆞ니</p>
   <p class="g">꽃 좋고 열매 많으니</p>
